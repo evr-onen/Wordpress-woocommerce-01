@@ -1,0 +1,227 @@
+.logged-in.woocommerce-account .content-wrapper {
+	max-width: 77.5rem;
+	padding: 0 1rem;
+	width: 100%;
+	height: 75vh;
+}
+
+.logged-in.woocommerce-account .woocommerce {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	height: 100%;
+}
+
+.logged-in.woocommerce-account .woocommerce .woocommerce-MyAccount-navigation {
+	min-width: 18.75rem;
+	height: 100%;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	padding: 0.5rem 0;
+	margin-right: 4rem;
+	background-color: #f5f5f5;
+}
+
+.logged-in.woocommerce-account .woocommerce .woocommerce-MyAccount-navigation li {
+	padding: 0.5rem 0;
+	margin: 0 1rem;
+	background-color: #f5f5f5;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	border-radius: 10px;
+}
+.logged-in.woocommerce-account .woocommerce .woocommerce-MyAccount-navigation li.is-active {
+	background-color: #d8d8d8;
+}
+.logged-in.woocommerce-account .woocommerce .woocommerce-MyAccount-navigation li + li {
+	margin-top: 1rem;
+}
+.logged-in.woocommerce-account .woocommerce .woocommerce-MyAccount-navigation li a {
+	display: block;
+	padding-left: 1rem;
+}
+
+.logged-in.woocommerce-account .woocommerce .woocommerce-MyAccount-content {
+	width: 100%;
+	height: 100%;
+	padding: 2rem;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	background-color: #f5f5f5;
+	display: flex;
+	flex-direction: column;
+}
+.logged-in.woocommerce-account .woocommerce .woocommerce-MyAccount-content > p:first-of-type {
+	margin: auto auto 0 auto;
+}
+.logged-in.woocommerce-account .woocommerce .woocommerce-MyAccount-content > p:nth-of-type(2) {
+	margin: 0 auto auto auto;
+	text-align: center;
+}
+
+.woocommerce-account .woocommerce {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.woocommerce-account .woocommerce input {
+	border: 1px solid #d8d8d8;
+	padding-left: 1rem;
+	border-radius: 10px;
+}
+.woocommerce-account .woocommerce form.woocommerce-form-login {
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	background-color: #f5f5f5;
+	padding: 2rem;
+	max-width: 20rem;
+	width: 100%;
+}
+.woocommerce-account .woocommerce form.woocommerce-form-login p {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.woocommerce-account .woocommerce form.woocommerce-form-login p + p {
+	margin-top: 1rem;
+}
+.woocommerce-account .woocommerce form.woocommerce-form-login p label {
+	font-size: 0.875rem;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+.woocommerce-account .woocommerce form.woocommerce-form-login p input {
+	border: 1px solid black;
+	padding-left: 1rem;
+}
+.woocommerce-account .woocommerce form.woocommerce-form-login button.woocommerce-form-login__submit {
+	background-color: #d8d8d8;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	border-radius: 10px;
+	padding: 0.4rem 2rem;
+	max-width: 11.5rem;
+	width: 100%;
+	margin-top: 2rem;
+}
+
+.woocommerce-account.woocommerce-edit-address .woocommerce-MyAccount-content > p {
+	margin: 0 !important;
+}
+.woocommerce-account.woocommerce-edit-address
+	.woocommerce-MyAccount-content
+	.woocommerce-Address
+	header.woocommerce-Address-title {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2rem;
+}
+.woocommerce-account.woocommerce-edit-address
+	.woocommerce-MyAccount-content
+	.woocommerce-Address
+	header.woocommerce-Address-title
+	> h3 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 1.2rem;
+
+	border-radius: 10px;
+}
+.woocommerce-account.woocommerce-edit-address
+	.woocommerce-MyAccount-content
+	.woocommerce-Address
+	header.woocommerce-Address-title
+	> a {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+	background-color: #d8d8d8;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	border-radius: 10px;
+	padding: 0.3rem 0;
+	max-width: 11.5rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.woocommerce-account.woocommerce-edit-account .woocommerce-EditAccountForm.edit-account {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: start;
+	align-items: start;
+	align-content: baseline;
+	height: 100%;
+}
+
+.woocommerce-account.woocommerce-edit-account .woocommerce-EditAccountForm.edit-account p {
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+	padding: 0 1rem;
+	margin-top: 1rem;
+}
+.woocommerce-account.woocommerce-edit-account .woocommerce-EditAccountForm.edit-account p:nth-of-type(3) {
+	display: flex;
+	width: 100% !important;
+}
+.woocommerce-account.woocommerce-edit-account .woocommerce-EditAccountForm.edit-account p:nth-of-type(3) label {
+	width: 20%;
+}
+.woocommerce-account.woocommerce-edit-account .woocommerce-EditAccountForm.edit-account p:nth-of-type(3) input {
+	width: 27%;
+	height: 24px;
+	margin-right: 1rem;
+	margin-left: auto;
+}
+.woocommerce-account.woocommerce-edit-account .woocommerce-EditAccountForm.edit-account p:nth-of-type(3) span {
+	width: 50%;
+}
+.woocommerce-account.woocommerce-edit-account .woocommerce-EditAccountForm.edit-account p:nth-of-type(3) em {
+	display: block;
+	width: 100%;
+	margin-left: 2rem;
+}
+.woocommerce-account.woocommerce-edit-account .woocommerce-EditAccountForm.edit-account fieldset {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-top: 4rem;
+}
+.woocommerce-account.woocommerce-edit-account .woocommerce-EditAccountForm.edit-account fieldset p {
+	width: 100%;
+	margin-top: 1rem;
+}
+.woocommerce-account.woocommerce-edit-account .woocommerce-EditAccountForm.edit-account fieldset legend {
+	width: 100%;
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+.woocommerce-account.woocommerce-edit-account .woocommerce-EditAccountForm.edit-account fieldset p > label {
+	width: 50% !important;
+}
+.woocommerce-account.woocommerce-edit-account .woocommerce-EditAccountForm.edit-account fieldset p > span {
+	width: 50%;
+}
+.woocommerce-account.woocommerce-edit-account .woocommerce-EditAccountForm.edit-account fieldset p > span > input {
+	width: 100% !important;
+}
+
+.woocommerce-account.woocommerce-edit-account .woocommerce-EditAccountForm.edit-account p:last-of-type {
+	width: 100%;
+}
+.woocommerce-account.woocommerce-edit-account .woocommerce-EditAccountForm.edit-account p:last-of-type button {
+	margin-top: 4rem;
+	margin-left: auto;
+	font-weight: 500;
+	background-color: #d8d8d8;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	border-radius: 10px;
+	padding: 0.3rem 0;
+	max-width: 11.5rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

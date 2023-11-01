@@ -1,0 +1,31 @@
+/*
+Theme Name: theme
+Author: Evren
+Version: 1.0.0
+
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;500&display=swap");
+
+@import "style/global.css";
+@import "style/header.css";
+@import "style/footer.css";
+@import "style/product.css";
+@import "style/shop.css";
+@import "style/cart.css";
+@import "style/account.css";
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	/* display: none; <- Crashes Chrome on hover */
+	-webkit-appearance: none;
+	margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type="number"] {
+	appearance: textfield; /* Firefox */
+}
+
+html {
+	font-family: "Roboto", sans-serif;
+}

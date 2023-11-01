@@ -1,0 +1,203 @@
+.woocommerce-cart .content-wrapper {
+	max-width: 77.5rem;
+	width: 100%;
+	padding: 0 1rem;
+}
+
+.woocommerce-cart h1 {
+	font-weight: 500;
+	font-size: 2.5rem;
+}
+
+.woocommerce-cart .woocommerce {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+form.woocommerce-cart-form {
+	width: 100%;
+	padding: 2rem;
+}
+.woocommerce-cart-form__contents {
+	width: 100%;
+}
+form.woocommerce-cart-form thead {
+	height: 4rem;
+	border: 0.5px solid black;
+}
+form.woocommerce-cart-form thead tr {
+	width: 100%;
+}
+
+form.woocommerce-cart-form thead tr th:nth-child(1) {
+	width: 10%;
+}
+
+form.woocommerce-cart-form thead tr th:nth-child(2) {
+	width: 10%;
+}
+
+form.woocommerce-cart-form thead tr th:nth-child(3) {
+	width: 35%;
+}
+
+form.woocommerce-cart-form thead tr th:nth-child(4) {
+	width: 15%;
+}
+form.woocommerce-cart-form thead tr th:nth-child(5) {
+	width: 15%;
+}
+form.woocommerce-cart-form thead tr th:nth-child(6) {
+	width: 15%;
+}
+form.woocommerce-cart-form tbody tr {
+	border: 1px solid black;
+	border-radius: 15px;
+}
+form.woocommerce-cart-form tbody tr {
+	height: 80px;
+}
+form.woocommerce-cart-form tbody tr td:nth-child(1) {
+	text-align: center;
+}
+
+form.woocommerce-cart-form tbody tr td:nth-child(1) a {
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #d2d2d2;
+	color: #000;
+	border-radius: 50%;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	width: 2.1875rem;
+	height: 2.1875rem;
+}
+
+form.woocommerce-cart-form tbody tr td:nth-child(2) {
+	text-align: center;
+	padding: 0.5rem;
+}
+form.woocommerce-cart-form tbody tr td:nth-child(2) a img {
+	width: auto;
+	height: 64px;
+}
+
+form.woocommerce-cart-form tbody tr td:nth-child(3) {
+	text-align: center;
+	text-transform: capitalize;
+}
+
+form.woocommerce-cart-form tbody tr td:nth-child(4) {
+	text-align: center;
+}
+form.woocommerce-cart-form tbody tr td:nth-child(5) {
+	display: flex;
+	text-align: center;
+	height: 80px;
+	width: 100%;
+}
+form.woocommerce-cart-form tbody tr td:nth-child(5) .quantity {
+	display: flex;
+	margin: auto 0;
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+form.woocommerce-cart-form tbody tr td:nth-child(5) .quantity input {
+	width: 30px;
+	text-align: center;
+	border: 1px solid #d2d2d2;
+}
+form.woocommerce-cart-form tbody tr td:nth-child(5) .quantity button {
+	width: 1.5625rem;
+	height: 1.5625rem;
+	background-color: #d2d2d2;
+	color: #000;
+	border-radius: 50%;
+
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+form.woocommerce-cart-form tbody tr td:nth-child(6) {
+	text-align: center;
+}
+form.woocommerce-cart-form tbody tr:last-child td .coupon {
+	display: flex;
+	width: 100%;
+}
+form.woocommerce-cart-form tbody tr:last-child td .coupon input {
+	border: 1px solid #d2d2d2;
+	margin-left: auto;
+	margin-right: 1rem;
+	padding-left: 1rem;
+}
+form.woocommerce-cart-form tbody tr:last-child td .coupon input::placeholder {
+	padding-left: 1rem;
+}
+form.woocommerce-cart-form tbody tr:last-child td .coupon button[name="apply_coupon"] {
+	padding: 0.3rem 2rem;
+	background-color: #d2d2d2;
+	color: #000;
+	border-radius: 10px;
+	font-weight: 600;
+	text-transform: uppercase;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	margin-right: 1rem;
+}
+form.woocommerce-cart-form tbody tr:last-child td button[name="update_cart"] {
+	display: none;
+}
+form.woocommerce-cart-form table {
+	border: 1px solid black;
+}
+
+.cartTable-wrapper {
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	background-color: #f5f5f5;
+	border-radius: 10px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2rem;
+}
+
+.cart-collaterals {
+	max-width: 25.5rem;
+	width: 100%;
+	align-self: flex-end;
+}
+.cart-collaterals .cart_totals {
+	display: flex;
+	flex-direction: column;
+}
+.cart-collaterals .cart_totals h2 {
+	text-transform: capitalize;
+	font-weight: 600;
+}
+.cart-collaterals .cart_totals table {
+	border: 1px solid black;
+	padding: 1rem 0;
+}
+.cart-collaterals .cart_totals table tr th {
+	text-align: right;
+}
+.cart-collaterals .cart_totals table tr td {
+	padding-left: 2rem;
+}
+.cart-collaterals .cart_totals table tr:last-child td .woocommerce-Price-amount.amount {
+	font-size: 1.5rem;
+}
+.cart-collaterals .cart_totals .wc-proceed-to-checkout {
+	text-align: center;
+	font-weight: 700;
+	margin-top: 1rem;
+	padding: 0.7rem 2rem;
+	background-color: #d2d2d2;
+	border-radius: 10px;
+	font-weight: 600;
+	text-transform: uppercase;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
